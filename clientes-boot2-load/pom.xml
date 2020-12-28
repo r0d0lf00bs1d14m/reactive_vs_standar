@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Artifact -->
+    <groupId>com.example</groupId>
+    <artifactId>boot2-load</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <!-- Identification -->
+    <name>CLient Bot Load</name>
+
+    <!-- Libraries versions -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <!-- Project modules -->
+    <modules>
+        <module>bloqueante</module>
+        <module>reactive</module>
+    </modules>
+
+
+    <!-- Team: Credits -->
+    <developers>
+        <developer>
+            <organization>ASKI, SAS</organization>
+            <name>Rodolfo Rivas</name>
+            <email>rodolfo.rivas@aski.com.co</email>
+            <roles>
+                <role>Technical Lider</role>
+                <role>Java Senior Programmer</role>
+            </roles>
+        </developer>
+    </developers>
+
+</project>
