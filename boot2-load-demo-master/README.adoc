@@ -190,15 +190,3 @@ curl -X "POST" "http://localhost:8085/passthrough/messages" \
 ----
 ./gradlew -p applications/load-scripts  -DTARGET_URL=http://localhost:8083 -DSIM_USERS=300 gatlingRun
 ----
-
-== Against Spring Cloud Zuul version of the app
-[source, bash]
-----
-./gradlew -p applications/load-scripts  -DTARGET_URL=http://localhost:8084 -DSIM_USERS=300 gatlingRun
-----
-
-== Against Zuul2 version of the app
-[source, bash]
-----
-./gradlew -p applications/load-scripts  -DTARGET_URL=http://localhost:8085 -DSIM_USERS=300 gatlingRun
-----
